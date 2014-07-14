@@ -1,0 +1,26 @@
+{
+  "name": "YuezUrl",
+  "version": "0.0.1",
+  "authors": [
+    "zgs225 <zgs225@gmail.com>"
+  ],
+  "description": "An url manipulator in browser",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "YuezUrl",
+    "url"
+  ],
+  "license": "MIT",
+  "homepage": "http://yuez.me",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
