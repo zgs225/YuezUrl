@@ -8,11 +8,10 @@ YuezUrl
 
 **Usage**
 
-  bower install YuezUrl
+    bower install YuezUrl
 
-  yuezUrl = new YuezUrl
+    yuezUrl = new YuezUrl
   
 If you want to setting some params to the url, then
 
-  yuezUrl.set {object}
-
+    yuezUrl.set {object}
