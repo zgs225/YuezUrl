@@ -28,16 +28,7 @@ class @YuezUrl
     else
       "#{ @protocol }//#{ @hostname }:#{ @port }#{ @pathname }#{ @search }#{ @hash }"
 
-  reload: ->
-    window.location.protocol = @protocol
-    window.location.hostname = @hostname
-    window.location.port     = @port
-    window.location.pathname = @pathname
-    window.location.search   = @search
-    window.location.hash     = @hash
-
   redirect: ->
-    @reload()
     window.location.href = @href()
 
   set: (obj)->
