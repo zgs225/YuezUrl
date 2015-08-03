@@ -1,6 +1,6 @@
 {
   "name": "YuezUrl",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "./src/url.js.coffee",
   "authors": [
     "zgs225 <zgs225@gmail.com>"
